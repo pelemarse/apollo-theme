@@ -1,1 +1,1 @@
-# Apollo Theme for Helix Code Editor
+# Apollo Theme (Helix code editor)
