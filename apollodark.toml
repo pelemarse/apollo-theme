@@ -1,0 +1,109 @@
+# Syntax
+attribute                   = "syntax_grey_darkner"
+keyword                     = "blue"
+"keyword.directive"         = "blue"
+namespace                   = "syntax_grey"
+punctuation                 = "syntax_grey_dark"
+"punctuation.delimiter"     = "syntax_grey_dark"
+operator                    = "blue"
+# special = "syntax_grey_lighter" issue color in file picker
+"variable.other.member"     = "syntax_grey_lighter"
+variable                    = "syntax_grey_lighter"
+"variable.parameter"        = { fg = "syntax_grey_lighter" }
+"variable.builtin"          = "syntax_grey_lighter"
+type                        = "syntax_grey_lighter"
+"type.builtin"              = "syntax_grey_lighter"
+constructor                 = "syntax_grey_lighter"
+function                    = "white"
+"function.macro"            = "white"
+"function.builtin"          = "white"
+tag                         = "syntax_grey_dark"
+comment                     = "syntax_grey_darkner"
+constant                    = "syntax_grey_lighter"
+"constant.builtin"          = "syntax_grey_lighter"
+string                      = "syntax_green"
+"constant.numeric"          = "orange"
+"constant.character.escape" = "syntax_grey_lighter"
+label                       = "syntax_grey_lighter"
+
+# Interface
+"ui.background"                   = { fg = "white_grayer", bg = "grey_dark" }
+"ui.background.separator"         = { fg = "" } # file picker separator
+"ui.cursor"                       = { fg = "grey_lighter", bg = "grey_dark_more_lighter", underline = { color = "white", style = "line"} }
+"ui.cursor.normal"                = { fg = "grey_lighter", bg = "grey_dark_more_lighter", underline = { color = "white", style = "line"} }
+"ui.cursor.insert"                = { fg = "grey_lighter", bg = "grey_dark_more_lighter", underline = { color = "white", style = "line"} }
+"ui.cursor.select"                = { fg = "grey_lighter", bg = "grey_dark_more_lighter", underline = { color = "white", style = "line"} }
+"ui.cursor.match"                 = { fg = "grey_lighter", underline = { color = "white", style = "line"} }
+"ui.cursor.primary"               = { fg = "grey_lighter", bg = "grey_dark_more_lighter", underline = { color = "white", style = "line"} }
+"ui.cursor.primary.normal"        = { fg = "grey_lighter", bg = "grey_dark_more_lighter", underline = { color = "white", style = "line"} }
+"ui.cursor.primary.insert"        = { fg = "grey_lighter", bg = "grey_dark_more_lighter", underline = { color = "white", style = "line"} }
+"ui.cursor.primary.select"        = { fg = "grey_lighter", bg = "grey_dark_more_lighter", underline = { color = "white", style = "line"} }
+"ui.debug.breakpoint"             = { fg = "grey" }
+"ui.debug.active"                 = { fg = "grey_darkner"}
+"ui.gutter"                       = { fg = "grey" }
+"ui.gutter.selected"              = { fg = "grey" }
+"ui.highlight.frameline"          = { fg = "", bg = "" }
+"ui.linenr"                       = { fg = "grey" }
+"ui.linenr.selected"              = { fg = "black", bg = "green_primary" }
+"ui.statusline"                   = { fg = "black", bg = "green_primary" }
+"ui.statusline.inactive"          = { fg = "grey", bg = "grey_dark_lighter" }
+"ui.statusline.normal"            = { fg = "black", bg = "green_primary" }
+"ui.statusline.insert"            = { fg = "black", bg = "green_primary" }
+"ui.statusline.select"            = { fg = "black", bg = "green_primary" }
+"ui.statusline.separator"         = { fg = ""}
+"ui.popup"                        = { fg = "white_grayer", bg = "grey_dark_lighter" }
+"ui.popup.info"                   = { fg = "green_primary" }
+"ui.window"                       = { fg = "grey" }
+"ui.help"                         = { fg = "green_primary" }
+"ui.text"                         = { fg = "white_grayer"  }
+"ui.text.focus"                   = { fg = "black", bg = "green_primary" }
+"ui.text.inactive"                = { fg = "grey" }
+"ui.text.info"                    = { fg = "green_primary" }
+"ui.virtual.ruler"                = { bg = "grey_dark2" }
+"ui.virtual.whitespace"           = { fg = "green_darkner" }
+"ui.virtual.indent-guide"         = { fg = "grey_dark_lighter" }
+"ui.virtual.inlay-hint"           = { fg = "syntax_grey_lighter", underline = { color = "green_primary", style = "line"} }
+"ui.virtual.inlay-hint.parameter" = { fg = "syntax_grey_lighter", underline = { color = "green_primary", style = "line"}  }
+"ui.virtual.inlay-hint.type"      = { fg = "syntax_grey_lighter", underline = { color = "green_primary", style = "line"} }
+"ui.virtual.wrap"                 = { fg = "grey" }
+"ui.menu"                         = { fg = "green_primary", bg = "grey_dark_lighter" }
+"ui.menu.selected"                = { fg = "black", bg = "green_primary" }
+"ui.menu.scroll"                  = { fg = "green_primary", bg = "grey_dark_lighter" }
+"ui.selection"                    = { fg = "grey_lighter", bg = "grey_dark_more_lighter" }
+"ui.selection.primary"            = { fg = "grey_lighter", bg = "grey_dark_more_lighter" }
+"ui.highlight"                    = { fg = "black", bg = "grey_dark_lighter" }
+"ui.cursorline.primary"           = { bg = "grey_dark_more_lighter" }
+"ui.cursorline.secondary"         = { bg = "grey_dark_lighter" }
+"ui.cursorcolumn.primary"         = { bg = "grey_dark_more_lighter" }
+"ui.cursorcolumn.secondary"       = { bg = "grey_dark_lighter" }
+"error"                           = { fg = "grey_darkner" }
+"info"                            = { fg = "grey_darkner" }
+"hint"                            = { fg = "grey_darkner" }
+"diagnostic"                      = { fg = "grey_darkner" }
+"diagnostic.hint"                 = { fg = "" } # Inline word color (hint, info, warning, error) not need
+"diagnostic.info"                 = { fg = "" }
+"diagnostic.warning"              = { fg = "" }
+"diagnostic.error"                = { fg = "" }
+
+[palette]
+white                  = "#ffffff"
+black                  = "#000000"
+white_grayer           = "#e2e2e2"
+grey_dark              = "#1e1e1e"
+grey_dark2             = "#202020"
+grey_dark_lighter      = "#262626"
+grey_dark_more_lighter = "#303030"
+grey_darkner           = "#4e4e4e"
+grey                   = "#818181"
+grey_lighter           = "#9d9d9d"
+green_primary          = "#19cc83"
+green_darkner          = "#1a8a5d"
+red                    = "#9a1c1c"
+
+syntax_grey_dark       = "#545454"
+syntax_grey_darkner    = "#606060"
+syntax_grey            = "#a8a8a8"
+blue                   = "#a4ccfe"
+syntax_grey_lighter    = "#b2b2b2"
+syntax_green           = "#86d998"
+orange                 = "#f7b786"
